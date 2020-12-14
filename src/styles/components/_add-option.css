@@ -1,0 +1,36 @@
+.add_option--error {
+    color: var(--off-white);
+    margin : var(--m-size) 0 0 0;
+    padding: 0 0 1rem 2rem;
+    font-style: italic;
+}
+
+.add--option {
+    display:flex;
+    padding : 0 var(--s-size);
+
+}
+.add-option-input {
+    flex-grow: 1;
+    background : var(--back-blue);
+    border-bottom: .1rem solid  rgb(157, 157, 161);
+    margin-right: var(--s-size);
+    color : var(--off-white);
+    padding-left: var(--s-size);
+    
+}
+
+@media (max-width:45rem) {
+
+.add--option {
+    flex-direction: column;
+
+}
+.add-option-input {
+    margin: 0 0 1rem 0;
+    height: 4.5rem;
+}
+
+
+
+}

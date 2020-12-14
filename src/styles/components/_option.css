@@ -1,0 +1,13 @@
+.option {
+    display : flex;
+    justify-content: space-between;
+    padding : var(--m-size) var(--m-size);
+    border-bottom : .1rem solid var(--purple)
+
+}
+.option__text {
+    color : white;
+    font-weight: 500;
+    word-break: break-all;
+    font-size: 2rem;
+}

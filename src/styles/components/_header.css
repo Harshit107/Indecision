@@ -1,0 +1,20 @@
+.header {
+    background-color: var(--off-black);
+    margin-bottom:var(--xl-size);;
+    padding : var(--m-size) 0;
+    color: var(--color-white);
+}
+.header__title {
+    font-size: 4.2rem;
+    margin: 0rem;
+    font-family: 'Marck Script', cursive;
+    padding-bottom: .5rem;
+}
+
+.header__subTitle {
+    font-size: var(--m-size);;
+    color: var(--color-primary);
+    font-weight: 500;
+    padding : 0;
+    margin: 0;
+}

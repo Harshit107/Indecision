@@ -1,0 +1,33 @@
+.big-button {
+    background : var(--purple);
+    border : none;
+    border-bottom: .8rem solid var(--dark-purple);
+    color : white;
+    width :100%;
+    margin-bottom: var(--xl-size);
+    padding : 3rem 0;
+    font-size: var(--l-size);
+}
+
+.big-button:disabled{
+    opacity: .5;
+}
+
+.button {
+    margin : 0;
+    background:var(--purple);
+    border:none;
+    border-bottom: .3rem solid var(--deep-purple);
+    padding:var(--s-size);
+    color:white;
+    font-weight: 500;
+}
+.button--link {
+    background: none;
+    border:none;
+    color:var(--off-white);
+    padding : 0;
+}
+.widget-header>p {
+    margin:0;
+}

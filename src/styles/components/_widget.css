@@ -1,0 +1,19 @@
+.widget-header {
+    background-color: var(--back-blue);
+    color: var(--off-white);
+    padding : var(--m-size);
+    display: flex;
+    justify-content : space-between
+}
+.widget {
+    background-color: var(--body-blue);
+    margin-bottom: 5rem;
+}
+
+.widget__message {
+    color: var(--off-white);
+    text-align: center;
+    margin : 0;
+    padding: var(--ml-size) 0;
+
+}

@@ -1,0 +1,16 @@
+:root {
+    --off-black : #20212c;
+    --color-white: white;
+    --off-white: rgb(176, 177, 214);
+    --color-primary: rgb(123, 153, 199);
+    --deepblue:#30374e;
+    --back-blue:#283047;
+    --body-blue:#2b385e;
+    --purple: #6836b3;
+    --dark-purple: rgb(71, 28, 136);
+    --s-size : 1.2rem;
+    --m-size : 1.6rem;
+    --ml-size : 2.4rem;
+    --l-size : 3.2rem;
+    --xl-size : 4.8rem;
+}
